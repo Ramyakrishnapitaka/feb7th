@@ -1,0 +1,150 @@
+ body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcSxoJ5W2ZaYI08Lm9uIiE_h_Ysfm7uCm9AkZHyzZhSd1KzJ-pcBM3LrFPA&s);
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+#uni{
+    position: relative;
+    left: 100px;
+    top: 200px;
+    text-align: justify;
+    color: darkblue;
+}
+#get{
+    position: relative;
+    left: 350px;
+    top: 30px;
+    height: 30px;
+    width: 170px;
+    background-color: green;
+    color: black;
+    border-radius: 25%;
+}
+#get:hover{
+    background-color: yellow;
+}
+#content{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    color: darkgreen;
+}
+marquee{
+    animation: mar 10s infinite
+}
+@keyframes mar{
+    0%{color: blue;}
+    20%{color:green;}
+    30%{color:yellow;}
+    40%{color: orange;}
+    50%{color: purple;}
+    60%{color: black;}
+    70%{color: red;}
+    80%{color: white;}
+    90%{color: fuchsia;}
+    100%{color: skyblue;}
+    
+    
+}
+#image1{
+    position: relative;
+    top:840px;
+    left: -50px;
+    height: 200px;
+    width: 200px;
+}
+#image2{
+    position: relative;
+    top:580px;
+    left: 340px;
+    height: 200px;
+    width: 200px;
+}
+#image3{
+    position: relative;
+    top:310px;
+    left: 780px;
+    height: 200px;
+    width: 200px;
+}
+#image4{
+    position: relative;
+    top:50px;
+    left: 1180px;
+    height: 200px;
+    width: 200px;
+}
+#library{
+    position: relative;
+    left: 20px;
+    top:850px;
+    font-family:cursive;
+    color: black;
+}
+#library1{
+    position: relative;
+    left: 380px;
+    top:590px;
+    font-family:cursive;
+    color: black;
+}
+#library2{
+    position: relative;
+    left: 800px;
+    top:340px;
+    font-family:cursive;
+    color: black;
+}
+#library3{
+    position: relative;
+    left: 1230px;
+    top:80px;
+    font-family:cursive;
+    color: black;
+}
+
+
+.fa{
+   
+    font-size:30px;
+    width:30px;
+    text-align:center;
+    margin:5px 2px;
+    border-radius:20%;
+    text-decoration:none;
+    position: relative;
+    top: 350px;
+}
+.fa:hover{
+    opacity:0.5;
+}
+
+.fa-instagram{
+    background-color:#B82F5E;
+    color:white;
+}
+.fa-linkedin{
+    background-color:#1D4C94 ;
+    color:white;
+}
+.fa-Whatsapp{
+    background-color:#2C7330 ;
+    color:white;
+}
+.fa-Telegram{
+    background-color:#2789D8 ;
+    color:white;
+}
+.fa-Twitter{
+    background-color:#2496A2;
+    color:white;
+}
+.fa-Youtube{
+    background-color:#F0F0F0;
+    color:red;
+}
+#head{
+    position: relative;
+    top: 330px;
+}
